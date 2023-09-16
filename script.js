@@ -35,7 +35,7 @@ function rot13(encodedStr) {
   let decodedArr = []; // Your Result goes here
   // Only change code below this line
 for (const key in lookup) {
- decodedArr.push(lookup[key]-13);
+ decodedArr.push(lookup[key]+13);
  // do something with the key and value
 }
   return decodedArr; //return decodedArr
